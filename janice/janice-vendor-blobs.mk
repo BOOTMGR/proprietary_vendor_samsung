@@ -348,6 +348,13 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/ppp_sterc.so:system/lib/ppp_sterc.so
 
+#STE Codecs
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/system/lib/libstagefright_soft_ste_mp3dec.so:system/lib/libstagefright_soft_ste_mp3dec.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libstagefright_soft_ste_aacdec.so:system/lib/libstagefright_soft_ste_aacdec.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libstagefright_ste_aacdec.so:system/lib/libstagefright_ste_aacdec.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libstagefright_ste_mp3decode.so:system/lib/libstagefright_ste_mp3decode.so
+
 # NMF Confs
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/usr/share/nmf/repository/mmdsp_8500_v2/_ev/common/portstate.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_ev/common/portstate.elf4nmf \
