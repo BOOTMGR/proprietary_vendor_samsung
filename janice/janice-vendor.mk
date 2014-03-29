@@ -15,4 +15,3 @@
 DEVICE_PACKAGE_OVERLAYS += vendor/samsung/janice/overlay
 
 $(call inherit-product, vendor/samsung/janice/janice-vendor-blobs.mk)
-$(call inherit-product, vendor/samsung/version.mk)
