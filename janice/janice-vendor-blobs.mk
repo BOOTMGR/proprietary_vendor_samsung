@@ -322,16 +322,12 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/tee/smcl_ta_8500bx_secure.ssw:system/lib/tee/smcl_ta_8500bx_secure.ssw \
     $(LOCAL_PATH)/proprietary/system/bin/cspsa-server:system/bin/cspsa-server \
     $(LOCAL_PATH)/proprietary/system/bin/immvibed:system/bin/immvibed \
-    $(LOCAL_PATH)/proprietary/system/bin/modem_log_relay:system/bin/modem_log_relay \
     $(LOCAL_PATH)/proprietary/system/lib/libmalmon.so:system/lib/libmalmon.so \
     $(LOCAL_PATH)/proprietary/system/lib/libmalutil.so:system/lib/libmalutil.so \
-    $(LOCAL_PATH)/proprietary/system/bin/modem-supervisor:system/bin/modem-supervisor \
     $(LOCAL_PATH)/proprietary/system/bin/msa:system/bin/msa \
     $(LOCAL_PATH)/proprietary/system/bin/npsmobex:system/bin/npsmobex \
-    $(LOCAL_PATH)/proprietary/system/bin/stedump:system/bin/stedump \
     $(LOCAL_PATH)/proprietary/system/bin/ta_loader:system/bin/ta_loader \
-    $(LOCAL_PATH)/proprietary/system/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
-    $(LOCAL_PATH)/proprietary/system/xbin/battery_params:system/xbin/battery_params
+    $(LOCAL_PATH)/proprietary/system/lib/libfactoryutil.so:system/lib/libfactoryutil.so
 
 # STE Psdata
 PRODUCT_COPY_FILES += \
