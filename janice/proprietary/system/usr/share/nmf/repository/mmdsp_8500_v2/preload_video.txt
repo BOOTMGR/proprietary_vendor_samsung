@@ -25,6 +25,45 @@ _sk.resource_manager.api.common_interface_exports
 _sk.resource_manager.api.mtf_resource
 _st.resource_manager.api.inform_resource_status
 resource_manager
+mpeg4dec.mpc.algo_deblock
+mpeg4dec.mpc.ddep
+mpeg4dec.mpc.mpeg4dec
+_ev.mpeg4dec.mpc.api.log_event
+_ev.mpeg4dec.mpc.api.algo
+_ev.mpeg4dec.mpc.api.end_algo
+_sk.fsminit
+_sk.sendcommand
+_sk.shared_emptythisbuffer
+_sk.shared_fillthisbuffer
+_sk.mpeg4dec.arm_nmf.api.Copy
+_sk.mpeg4dec.mpc.api.algo_deblock
+_sk.mpeg4dec.mpc.api.ddep
+_sk.mpeg4dec.mpc.api.emptythisheader
+_sk.mpeg4dec.mpc.api.fillthisheader
+_st.eventhandler
+_st.shared_emptythisbuffer
+_st.shared_fillthisbuffer
+_st.mpeg4dec.arm_nmf.api.Copy
+_st.mpeg4dec.mpc.api.end_algodeblock
+_st.mpeg4dec.mpc.api.fillthisheader
+_st.mpeg4dec.mpc.api.emptythisheader
+_st.mpeg4dec.mpc.api.end_algo
+resource_manager
+_ev.h264dec.mpc.api.algo
+_ev.h264dec.mpc.api.cabac
+_ev.h264dec.mpc.api.end_algo
+_ev.h264dec.mpc.api.end_cabac
+_ev.h264dec.mpc.ddep.api.log_event
+_sk.h264dec.mpc.api.trace_init
+_sk.h264dec.mpc.ddep.api.start_codec
+_st.h264dec.mpc.api.end_algo
+_st.h264dec.mpc.api.end_cabac
+_st.h264dec.mpc.ddep.api.end_codec
+h264dec.mpc.adapter
+h264dec.mpc.cabac
+h264dec.mpc.ddep
+h264dec.mpc.h264dec
+resource_manager
 
 
 
